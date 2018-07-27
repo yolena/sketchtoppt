@@ -1,0 +1,24 @@
+{
+  "author" : "Team STP",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Sketch to PPT",
+      "shortcut" : "cmd shift .",
+      "handlers" : "onRun",
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "isRoot" : true,
+    "title" : "Sketch to PPT"
+  },
+  "identifier" : "",
+  "version" : "1.0.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : ""
+}

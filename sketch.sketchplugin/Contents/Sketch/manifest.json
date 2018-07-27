@@ -1,0 +1,25 @@
+{
+  "author": "Team STP",
+  "commands": [
+    {
+      "script": "script.js",
+      "name": "Sketch to PPT",
+      "shortcut": "cmd shift .",
+      "handlers": "onRun",
+      "identifier": "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu": {
+    "items": [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "isRoot": true,
+    "title": "Sketch to PPT"
+  },
+  "identifier": "Sketch",
+  "version": "1.0.0",
+  "authorEmail": "",
+  "name": "Sketch",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
